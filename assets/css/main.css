@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "DM-Regular";
+    src: url("../fonts/DM_Sans/static/DMSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DM-Bold";
+    src: url("../fonts/DM_Sans/static/DMSans-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "LX-Regular";
+    src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "DM-Regular";
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container{
+    height: 100vh;
+    max-width: 1290px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+button{
+    font-size: 16px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
